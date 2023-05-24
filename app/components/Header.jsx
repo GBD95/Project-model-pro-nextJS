@@ -3,9 +3,9 @@ import { useState } from "react";
 import { logo } from "../../public/index.js";
 import styles from "../style.js";
 import { useTranslation } from "react-i18next";
-import LanguageSwitcher from "./Ui/LanguageSwitcher.jsx";
-import NavLinks from "./Ui/navLinks.jsx";
-import NavLinksMobile from "./Ui/NavLinksMobile.jsx";
+import LanguageSwitcher from "./UI/LanguageSwitcher.jsx";
+import NavLinks from "./UI/NavLinks.jsx";
+import NavLinksMobile from "./UI/NavLinksMobile.jsx";
 
 const Header = (props) => {
   const [Toggle, setToggle] = useState(true);
